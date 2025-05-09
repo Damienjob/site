@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Human Power</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="text.css" />
+
+    
+  </head>
+  <body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+      <div class="container d-flex justify-content-end">
+        <a href="#" class="me-3">BLOG</a>
+        <a href="#" class="me-3">CATALOGUES</a>
+        <a href="#" class="me-3">CONTACT</a>
+        <a href="#">VOTRE ESPACE</a>
+      </div>
+    </div>
+
+    <!-- Main Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white main-nav">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand logo" href="#">
+          <img src="images/logo.png" alt="Human Logo" />
+        </a>
+
+        <!-- Toggle Button for Mobile -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigation Links -->
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">FORMATIONS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SOLUTIONS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FINANCEMENT I CPF</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">RESSOURCES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">MON EQUIPE</a>
+            </li>
+          </ul>
+
+          <!-- Search Icon -->
+          <div class="d-flex align-items-center">
+            <a href="#" class="search-icon me-4">
+              <i class="fas fa-search"></i>
+            </a>
+
+            <!-- Rating Box -->
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Section Slide -->
+    <section class="barometre-section d-flex" id="slides-container">
+      <!-- Slide 1 -->
+      <div class="slide active">
+        <div
+          class="left-panel p-5 text-white d-flex flex-column justify-content-center align-items-center text-justify"
+        >
+          <h1 class="barometre-title">
+            Développez vos compétences professionnelles
+          </h1>
+          <p class="description">
+            Notre catalogue de formations couvre les compétences les plus
+            recherchées par les entreprises d'aujourd'hui. Conçus en
+            collaboration avec des experts de l'industrie, nos programmes vous
+            permettent d'acquérir des compétences pratiques et immédiatement
+            applicables dans votre contexte professionnel.
+          </p>
+          <p>
+            Des programmes de formation conçus pour répondre aux besoins du
+            marché actuel.
+          </p>
+
+          <div class="dots mt-5" id="dots-container"></div>
+        </div>
+        <div
+          class="right-panel d-flex align-items-center justify-content-center"
+        >
+          <img src="images/im1.jpg" alt="Buildings" />
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="slide">
+        <div
+          class="left-panel p-5 text-white d-flex flex-column justify-content-center align-items-center text-justify"
+        >
+          <h1 class="barometre-title">
+            Formations en ligne accessibles 24h/24
+          </h1>
+          <p class="description">
+            Notre plateforme e-learning de dernière génération vous offre un
+            accès illimité à des contenus pédagogiques de qualité. Grâce à notre
+            interface responsive et nos applications mobiles, vous pouvez
+            continuer votre apprentissage où que vous soyez, même hors
+            connexion.
+          </p>
+          <p>
+            Apprenez à votre rythme, où que vous soyez, sur notre plateforme
+            intuitive.
+          </p>
+
+          <div class="dots mt-5" id="dots-container"></div>
+        </div>
+        <div
+          class="right-panel d-flex align-items-center justify-content-center"
+        >
+          <img src="images/im2.jpg" alt="Buildings" />
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="slide">
+        <div
+          class="left-panel p-5 text-white d-flex flex-column justify-content-center align-items-center text-justify"
+        >
+          <h1 class="barometre-title">
+            Travail collaboratif et ateliers pratiques
+          </h1>
+          <p class="description">
+            L'apprentissage est plus efficace quand il est partagé. Nos sessions
+            en groupe stimulent l'intelligence collective et favorisent
+            l'échange d'expériences. Nos formateurs utilisent des méthodologies
+            participatives pour maximiser votre engagement et ancrer durablement
+            les connaissances.
+          </p>
+          <p>
+            Partagez vos idées et progressez ensemble grâce à des sessions
+            interactives.
+          </p>
+
+          <div class="dots mt-5" id="dots-container"></div>
+        </div>
+        <div
+          class="right-panel d-flex align-items-center justify-content-center"
+        >
+          <img src="images/im3.jpg" alt="Buildings" />
+        </div>
+      </div>
+
+      <!-- Slide 4 -->
+      <div class="slide">
+        <div
+          class="left-panel p-5 text-white d-flex flex-column justify-content-center align-items-center text-justify"
+        >
+          <h1 class="barometre-title">Obtenez des certifications reconnues</h1>
+          <p class="description">
+            Toutes nos formations aboutissent à des certifications reconnues par
+            l'État et le monde professionnel. Ces qualifications, inscrites au
+            Répertoire National des Certifications Professionnelles (RNCP),
+            constituent un véritable passeport pour votre évolution de carrière
+            et valorisent votre CV auprès des recruteurs.
+          </p>
+          <p>
+            Validez vos acquis avec des diplômes certifiants et valorisants.
+          </p>
+
+          <div class="dots mt-5" id="dots-container"></div>
+        </div>
+        <div
+          class="right-panel d-flex align-items-center justify-content-center"
+        >
+          <img src="images/im4.jpg" alt="Buildings" />
+        </div>
+      </div>
+
+      <!-- Slide 5 -->
+      <div class="slide">
+        <div
+          class="left-panel p-5 text-white d-flex flex-column justify-content-center align-items-center text-justify"
+        >
+          <h1 class="barometre-title">
+            Coaching personnalisé pour votre réussite
+          </h1>
+          <p class="description">
+            Chaque apprenant bénéficie d'un suivi individuel par nos coachs
+            professionnels. Nous établissons ensemble un plan de développement
+            adapté à vos objectifs et contraintes. Des points réguliers vous
+            permettent d'ajuster votre parcours et de surmonter les obstacles
+            éventuels pour garantir l'atteinte de vos ambitions
+            professionnelles.
+          </p>
+          <p>
+            Bénéficiez d'un accompagnement sur mesure pour atteindre vos
+            objectifs.
+          </p>
+
+          <div class="dots mt-5" id="dots-container"></div>
+        </div>
+        <div
+          class="right-panel d-flex align-items-center justify-content-center"
+        >
+          <img src="images/im5.jpg" alt="Buildings" />
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+        <div class="events-section">
+            <div class="section-header">
+                <h2 class="section-title text-black">Événements<br>professionnels à venir</h2>
+            </div>
+    
+            <div class="card glass-card">
+                <div class="card-image-wrapper">
+                    <img src="images/im6.jpg" alt="Cybersécurité" class="card-image">
+                    <div class="card-image-overlay"></div>
+                </div>
+                <div class="card-content">
+                    <div class="tag">CONFÉRENCE</div>
+                    <div class="date-container">
+                        <div class="calendar-icon">
+                            <!-- Icône SVG -->
+                        </div>
+                        <span class="date">Jeudi 26 juin 2025</span>
+                    </div>
+                    <h3 class="card-title">Conférence - <span class="highlight-text">La cybersécurité en entreprise</span> : prévenir les risques</h3>
+                    <div class="location">
+                        <!-- Icône SVG -->
+                        En présentiel ou à distance
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card glass-card">
+                <div class="card-image-wrapper">
+                    <img src="images/im7.jpg" alt="Intelligence Artificielle" class="card-image">
+                    <div class="card-image-overlay"></div>
+                </div>
+                <div class="card-content">
+                    <div class="tag">CONFÉRENCE</div>
+                    <div class="date-container">
+                        <div class="calendar-icon">
+                            <!-- Icône SVG -->
+                        </div>
+                        <span class="date">Mardi 1er juillet 2025</span>
+                    </div>
+                    <h3 class="card-title">Atelier - <span class="highlight-text">Intelligence artificielle</span> et métiers RH : évolutions à anticiper</h3>
+                    <div class="location">
+                        <!-- Icône SVG -->
+                        En présentiel ou à distance
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="formations-section">
+            <div class="section-header">
+                <h2 class="section-title text-black">Formations professionnelles</h2>
+                <div class="navigation-arrows">
+                    <div class="arrow">&#10092;</div>
+                    <div class="arrow">&#10093;</div>
+                </div>
+            </div>
+    
+            <div class="formation-card glass-card">
+                <div class="formation-header">
+                    <div class="formation-tag">
+                        <span class="formation-tag-text">FORMATION</span>
+                    </div>
+                    <span class="formation-ref">| Réf. F2025-01</span>
+                </div>
+                <div class="badges">
+                    <span class="badge badge-best">BEST SELLER</span>
+                    <span class="badge badge-garantie">SESSION GARANTIE</span>
+                </div>
+                <h3 class="formation-title">Formation : <span class="highlight-text">Prévenir le harcèlement au travail</span> – obligations & bonnes pratiques</h3>
+                <div class="formation-footer">
+                    <div class="duration">
+                        <!-- Icône SVG -->
+                        1 JOUR
+                    </div>
+                    <div class="price-container">
+                        <div class="price-label">À PARTIR DE</div>
+                        <div class="price">850€ HT</div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="formation-card glass-card">
+                <div class="formation-header">
+                    <div class="formation-tag">
+                        <span class="formation-tag-text">FORMATION</span>
+                    </div>
+                    <span class="formation-ref">| Réf. F2025-12</span>
+                </div>
+                <div class="badges">
+                    <span class="badge badge-new pulse-animation">NOUVEAUTÉ</span>
+                </div>
+                <h3 class="formation-title">Formation : <span class="highlight-text">Marketing de la recommandation</span> – développez votre clientèle</h3>
+                <div class="formation-footer">
+                    <div class="duration">
+                        <!-- Icône SVG -->
+                        2 JOURS
+                    </div>
+                    <div class="price-container">
+                        <div class="price-label">À PARTIR DE</div>
+                        <div class="price">1 490€ HT</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <!-- Logo -->
+          <div class="col-lg-2 logo-container">
+            <a href="#">
+              <img
+                src="images/logo.png"
+                alt="Human Power"
+                class="img-fluid"
+              />
+            </a>
+          </div>
+
+          <!-- Footer links column 1 -->
+          <div class="col-lg-2 footer-column">
+            <div class="footer-links">
+              <a href="index.html">Accueil</a>
+              <a href="#">Notre équipe</a>
+              <a href="#">Nos partenaires</a>
+              <a href="#">Devenir Formateur</a>
+              <a href="#">Formation sur mesure</a>
+            </div>
+          </div>
+
+          <!-- Footer links column 2 -->
+          <div class="col-lg-2 footer-column">
+            <div class="footer-links">
+              <a href="#">Insertion professionnelle</a>
+              <a href="#">Actualités</a>
+              <a href="#">Publications</a>
+              <a href="#">FAQ</a>
+              <a href="#">Contact</a>
+            </div>
+          </div>
+
+          <!-- Contact information -->
+          <div class="col-lg-3 footer-column">
+            <div class="contact-info">
+              <p class="title">À votre écoute</p>
+              <p>de 8h00 à 17h00</p>
+              <p>+352 46 50 16 – 1</p>
+              <p>customer@houseoftraining.lu</p>
+            </div>
+          </div>
+
+          <!-- Social icons -->
+          <div class="col-lg-3 footer-column">
+            <div class="social-icons">
+              <a href="#" aria-label="LinkedIn"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" aria-label="YouTube"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
