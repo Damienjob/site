@@ -1,6 +1,6 @@
 /* Custom CSS */
 :root {
-    --primary-red: #fff;
+  --primary-red: red;
     --dark-gray: #333333;
     --light-gray: #f8f9fa;
     --human-power-blue: #1e3771;
@@ -180,12 +180,18 @@
     line-height: 1.6;
     max-width: 90%;
   }
-  
-  footer {
+    footer {
     background-color: #ffffff;
     padding: 3rem 0;
     border-top: 1px solid #f0f0f0;
+    width: 100%;
   }
+  
+  footer .container-fluid {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
   .logo-container img {
     height: 60px;
   }
@@ -311,7 +317,7 @@
   }
   
   .date {
-    color: #e6007e;
+    color: red;
     font-weight: bold;
   }
   
@@ -325,7 +331,7 @@
   .location {
     display: flex;
     align-items: center;
-    color: #e6007e;
+    color: red;
     font-weight: bold;
     gap: 5px;
   }
@@ -375,7 +381,7 @@
   }
   
   .badge-best {
-    background-color: #e6007e;
+    background-color: red;
   }
   
   .badge-garantie {
@@ -383,7 +389,7 @@
   }
   
   .badge-new {
-    background-color: #e6007e;
+    background-color: red;
   }
   
   .formation-title {
@@ -402,7 +408,7 @@
     display: flex;
     align-items: center;
     gap: 5px;
-    color: #e6007e;
+    color: red;
     font-weight: bold;
   }
   
@@ -723,7 +729,7 @@
   }
   
   .badge-best {
-      background: linear-gradient(135deg, #e6007e, #ff338f);
+      background: linear-gradient(135deg, red, #ff338f);
       color: white;
   }
   
@@ -733,7 +739,7 @@
   }
   
   .badge-new {
-      background: linear-gradient(135deg, #e6007e, #ff338f);
+      background: linear-gradient(135deg, red, #ff338f);
       color: white;
   }
   
@@ -899,10 +905,7 @@
   }
   
   ::-webkit-scrollbar-thumb {
-      background: rgba(230, 0, 126, 0.6);
+      background: red;
       border-radius: 10px;
   }
   
-  ::-webkit-scrollbar-thumb:hover {
-      background: rgba(230, 0, 126, 0.8);
-  }
